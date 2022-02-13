@@ -2,9 +2,9 @@
 
 namespace Axeldotdev\LaravelVersion;
 
+use Axeldotdev\LaravelVersion\Commands\UpdateAppVersion;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Axeldotdev\LaravelVersion\Commands\UpdateAppVersion;
 
 class LaravelVersionServiceProvider extends PackageServiceProvider
 {

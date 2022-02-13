@@ -2,8 +2,8 @@
 
 namespace Axeldotdev\LaravelVersion\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Axeldotdev\LaravelVersion\LaravelVersionServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
