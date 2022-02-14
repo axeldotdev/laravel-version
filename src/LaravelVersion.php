@@ -2,11 +2,11 @@
 
 namespace Axeldotdev\LaravelVersion;
 
-use Illuminate\Support\Str;
-use Illuminate\Support\Collection;
 use Illuminate\Filesystem\Filesystem;
-use Symfony\Component\Process\Process;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
 use Symfony\Component\Process\Exception\ProcessFailedException;
+use Symfony\Component\Process\Process;
 
 class LaravelVersion
 {

@@ -2,9 +2,9 @@
 
 namespace Axeldotdev\LaravelVersion\Commands;
 
+use Axeldotdev\LaravelVersion\Facades\LaravelVersion;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\App;
-use Axeldotdev\LaravelVersion\Facades\LaravelVersion;
 
 class UpdateAppVersion extends Command
 {
