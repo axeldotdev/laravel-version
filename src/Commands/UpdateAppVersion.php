@@ -26,7 +26,11 @@ class UpdateAppVersion extends Command
 
         $data = $this->data();
 
-        LaravelVersion::handle(...$data);
+        $result = LaravelVersion::handle(...$data);
+
+        if (! $result) {
+            return Command::FAILURE;
+        }
 
         return Command::SUCCESS;
     }
